@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(240, 227, 252);
+}
+
+p {
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 200;
+    color: black;
+}
+
+h1 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: coral;
+}
+
+h4 {
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 200;
+}
+
+#navigates {
+    height: auto;
+    width: max-content;
+    background-color: aquamarine;
+}
+
+h3 {
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: darkgray;
+}
+
+#block {
+    background-color: darkolivegreen;
+    height: 1000px;
+    width: 500px;
+    margin: auto;
+}
+
+#media {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
