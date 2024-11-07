@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="stylesheet.css">  
+    <link href="scripts.js" rel="jQuerys"> 
+
+    <!--j Query library from a CND-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+ <!--Code Attribution:
+Varsity College Durban North (2024) WEDE5020 HCWAD 2024 Module Manual. Durban: Varsity College.
+Sync up sessions-->
+
 </head>
 
 <body>
-    <ul id="navigates">
-        <a href="aboutus.html">ABOUT US</a>
-    <a href="contact.html">CONTACT US</a>
-    <a href="news.html">NEWS</a>
-    <a href="index.html">HOME</a>
-    <a href="queries.html">QUERIES</a>
-    <a href="programs.html">PROGRAMS</a> 
-    </ul> 
+    <nav>
+        <ul>
+            
+            <li><a href="index.html"><div> <title>HOME</title></div></a></li>
+            <li><a href="aboutus.html"><div> <title>ABOUT US</title></div></a></li>
+            <li><a href="contact.html"><div> <title>CONTACT US</title></div></a></li>
+            <li><a href="programs.html"><div> <title>PROGRAMS</title></div></a></li>
+            <li><a href="queries.html"><div> <title>QUERIES</title></div></a></li>
+       
+        </ul>
+    </nav>
+    
     
     
     <div>
@@ -28,17 +40,39 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmSOdH3P_lpJqo2RijOP-7GkQpqYkG5U7-SG8dpZN4Zmgsww/viewform?embedded=true" width="640" height="686" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 
-  <div>
-    <p>Feel free to contact us</p>
-    <p>email: ngo.dwjsa@gmail.co.za </p>
-    <p>telephone: 031 456 3344</p>
-    <p>address: 31 Allen Street, Emphangeni</p>
-  </div>  
+    <div>
+        <form action="ST10456560@vcconnect.edu.za" method="post" onsubmit="return validateform()"></form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required onfocus="clearField(this)" ><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required onfocus="clearField(this)" ><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required onfocus="clearField(this)" ><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required onfocus="clearField(this)" ><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required onfocus="clearField(this)"></textarea><br><br>
+        <input type="submit" value="submit">
+        <!--end of form-->
+        
+    </div>
+
+
+    <div>
+        <p>Feel free to contact us</p>
+        <p>email: ngo.dwjsa@gmail.co.za </p>
+        <p>telephone: 031 456 3344</p>
+        <p>address: 31 Allen Street, Emphangeni</p>
+      </div>  
     
 </body>
 
-
-<footer>COPYRIGHT 2023</footer>
+<footer> <p>copyright &copy;2024</p>
+    <p id="dateTime"></p>
+    </footer>
 </html>
-
 
